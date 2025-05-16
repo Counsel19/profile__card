@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tailwind Profile Card</title>
+
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <body>
+    <div class="h-screen bg-[#19a2ae] flex justify-center items-center">
+      <div class="w-[90%] md:w-[400px]  h-[400px] grid bg-white rounded-[1rem] overflow-hidden">
+        <div class="bg-[url('./images/bg-pattern-card.svg')] h-[150px]"></div>
+
+        
+          <div class="-translate-y-[30px] flex flex-col items-center gap-[2rem] justify-between h-full">
+            <img
+              src="./images/image-victor.jpg"
+              alt="victor"
+              class="w-[90px] h-[90px] rounded-full border-4 border-white hover:scale-125 transition-all "
+            />
+            <div class="flex flex-col justify-center items-center">
+              <div>
+                <b> Victor Crest 1 </b> <span class="text-[#6a6f81]">26</span>
+              </div>
+              <span class="text-[#6a6f81]">London</span>
+            </div>
+
+            <div
+              class="flex items-center  w-full justify-evenly border-t border-[#969696] py-[1rem]"
+            >
+              <article class="flex justify-center items-center flex-col">
+                <b class="">70K</b>
+                <span class="text-[#6a6f81]">Followers</span>
+              </article>
+              <article class="flex justify-center items-center flex-col">
+                <b class="">70K</b>
+                <span class="text-[#6a6f81]">Likes</span>
+              </article>
+              <article class="flex justify-center items-center flex-col">
+                <b class="">70K</b>
+                <span class="text-[#6a6f81]">Photos</span>
+              </article>
+            </div>
+          </div>
+      
+      </div>
+    </div>
+  </body>
+</html>
